@@ -1,5 +1,6 @@
 import React from 'react';
- import MessageBox from './components/MessageBox';
+import MessageBox from './components/MessageBox';
+import Dashboard from './components/Dashboard';
 const App = React.createClass({
 
     render() {
@@ -7,6 +8,7 @@ const App = React.createClass({
         	<div>    
             	<h1>Hello, world!!!.</h1>
             	<MessageBox />
+            	<Dashboard />
             </div>
         );
     }
